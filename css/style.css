@@ -1,0 +1,384 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: whitesmoke;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-top: 0;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header img {
+    max-width: 100%;
+  }
+
+  #siteLogo{
+    position: absolute;
+    left: 1.5rem;
+    top:1.3rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+
+  
+  .navbar {
+    background: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration-line: underline;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+  }
+
+
+  .btns {
+    background-color: rgba(86, 213, 255, 0.752);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+  }
+  
+  .btns:hover {
+    background-color: #434343;
+  }
+  
+  
+  .vidArea{
+    display: block;
+    height: auto;
+    margin-bottom: 10%;
+  }
+
+  #homeVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  
+  
+  .welcome-text {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:start;
+    padding: 10px 20px;
+    margin: 50px 0px;
+  }
+
+  .welcome-text h1{
+    font-size: 2rem;
+    font-family: monospace;
+    letter-spacing: 5px;
+  }
+  
+  .freeMaterialBtn {
+    background-color: white;
+    color: gray;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  
+  .freeMaterialBtn:hover {
+    background-color: gainsboro;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  
+
+
+  .main {
+    margin-top: 20px;
+  }
+  
+  .featured-courses {
+    margin-top: 20px;
+  }
+  
+  .featured-courses h2 {
+    margin-top: 0;
+  }
+  
+  .featured-courses .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .featured-courses .card {
+    width: 200px;
+    margin: 0 20px 20px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .featured-courses .card img {
+    max-width: 100%;
+  }
+  
+  .featured-courses .card-body {
+    margin-top: 10px;
+  }
+  
+  .featured-courses .card-body h3 {
+    margin-top: 0;
+  }
+  
+  .featured-courses .card-body p {
+    margin-bottom: 0;
+  }
+  
+  .featured-courses .card-body a {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+  }
+  
+  .testimonials {
+    margin-top: 20px;
+  }
+  
+  .testimonials h2 {
+    margin-top: 0;
+  }
+  
+  .testimonials blockquote {
+    margin: 0 20px;
+    padding: 10px;
+    border-left: 5px solid black;
+  }
+  
+  .testimonials blockquote p {
+    margin-bottom: 0;
+  }
+  
+  .testimonials .author {
+    margin-top: 10px;
+  }
+  
+  .testimonials .author img {
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .testimonials .author h4 {
+    margin-top: 0;
+  }
+  
+  .testimonials .author p {
+    margin-bottom: 0;
+  }
+  
+  .footer {
+    padding: 20px;
+  }
+
+  video {
+    max-height: 100vh;
+  }
+
+  #footerText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+
+  }
+  
+
+ /* chatbot css  */
+
+#chatBotLogo{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+}
+
+.chat-icon {
+    cursor: pointer;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    z-index: 9999;
+  }
+  
+  .chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 9999;
+  }
+  
+  .chatbox.active {
+    display: block;
+  }
+  
+  
+  .chatbox .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #3f51b5;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .chatbox .header h3 {
+    margin: 0;
+  }
+  
+  .chatbox .header .close {
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  .chatbox .body {
+    height: 200px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .chatbox .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .chatbox .footer input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 5px;
+  }
+  
+  .chatbox .footer button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    cursor: pointer;
+    
+  }
+  
+  .chatbox .message {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .chatbox .message:last-child {
+    margin-bottom: 0;
+  }
+  
+  .chatbox .message .user-message {
+    margin-right: 10px;
+  }
+  
+  .chatbox .message .user-message .bubble {
+    padding: 5px 10px;
+    font-size: smaller;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    color: #fff;
+    max-width: 200px;
+
+  }
+  
+  .chatbox .message .bot-message {
+    margin-left: 10px;
+  }
+  
+  .chatbox .message .bot-message .bubble {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: gray;
+    font-size: smaller;
+    max-width: 200px;
+  }
+  
